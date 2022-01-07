@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .first-part{
     display: flex;
     margin: 20px;
@@ -26,7 +29,7 @@
 .button{
     text-decoration: none;
     padding: 10px 20px;
-    color: rgba(255, 255, 255, 0.774);
+    color: rgb(255, 255, 255);
     background-image: linear-gradient(orange,rgb(248, 6, 6));
     font-weight: 800;
     border-radius: 10px;
@@ -94,16 +97,15 @@
 }
 .third-part{
     display: flex;
-    margin: 20px;
+    margin: 50px;
     padding: 0px 100px;
     background-image: url(images/shapes/dream-bg.png);
     background-position: left;
     background-repeat: no-repeat;
+    background-size: 100px;
 }
 .old-again img{
     width: 400px;
-    padding-left: 20px;
-    margin-left: 20px;
 }
 .old-again{
     margin-top: 30px;
@@ -121,16 +123,64 @@
 .fourth-part{
     display: flex;
     margin: 60px 20px;
-    padding: 10px 120px;
+    padding: 0px 100px;
 }
 .community img{
     width: 400px;
-    padding-right: 20px;
-    margin-left: 20px;
+    padding-right: 50px;
+    margin-left: 40px;
 }
 .community h1{
     font-size: 50px;
 }
 .community p{
     padding-bottom: 10px;
+}
+.fifth-part{
+    padding: 0px 100px;
+}
+.second-container{
+    display: flex;
+}    
+.top-heading{
+    font-size: 50px;
+    text-align: center
+}
+.red{
+    color: maroon;
+}
+.your-web img{
+    width: 500px;
+}
+.your-web h1{
+    font-size: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.your-web p{
+    margin-bottom: 30px;
+}
+.ending{
+    text-align: center;
+    background-color: rgb(9, 9, 37);
+}
+.white{
+    color: moccasin;
+}
+.maron{
+    color: crimson;
+}
+.ending p{
+    color: honeydew;
+    padding-bottom: 20px;
+    margin-bottom: 0px;
+}
+.ending h1{
+    padding-top: 20px;
+}
+.color-1{
+    color: rgb(81, 112, 19);
+}
+.color-2{
+    color: rgb(138, 130, 21);
 }
